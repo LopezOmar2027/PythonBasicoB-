@@ -8,7 +8,7 @@ for i in mi_lista:
     for i in mi_lista:
         resultado+=i
 
-        print(f"El resultado de la suma de mi lista es :{resultado}")
+        print(f"El resultado de la suma de mi lista es :{resultado}\n")
         
         for i in range(2,9):
             print(i)
