@@ -16,7 +16,7 @@ for i in mi_lista:
             mi_lista_2=["lunes","martes","miercoles","jueves","viernes"]
             for i in mi_lista_2:
                 if i !="lunes":
-                    print(f"feliz{i}!")
+                    print(f"feliz{i}!\n")
                     #while loop
 
 
