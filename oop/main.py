@@ -1,8 +1,8 @@
-from Enemigo import*
-from Zombie import*
-from Ogro import*
+from Enemigo import *
+from Zombie import *
+from Ogro import *
 
-Zombie =zombie(10, 1)
+zombie =Zombie(10, 1)
 ogro =Ogro(20, 3)
 print(f"{zombie.get_tipo_enemigo()}tiene {zombie.puntos_energia}de energia y puede hacer ataques de {zombie.ataque}")
 print(f"{zombie.habla()}")
